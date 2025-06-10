@@ -21,7 +21,7 @@ function InputData() {
         e.preventDefault();
 
         try {
-            const res = await fetch('http://localhost:5000/api/contact', {
+            const res = await fetch('https://portfoliobackend-in03oav66-bishwajeet-07s-projects.vercel.app/api/contact', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
