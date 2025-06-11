@@ -25,7 +25,7 @@ function ProjectCard() {
                 </div>
                 <div>
 
-                  <a className="  px-8 rounded-md py-2 bg-slate-700 hover:bg-orange-600" target="_blank" href={projectItem.link}>Visit..</a>
+                  <a className="  px-4 rounded-md py-1 text-orange-600 " target="_blank" href={projectItem.link}>👉 Visit</a>
                 </div>
               </div>
             </div>

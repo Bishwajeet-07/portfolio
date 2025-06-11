@@ -43,7 +43,7 @@ function InputData() {
     return (
         <div className='  bg-zinc-950 p-4 text-white pb-10'>
             <div className=" flex justify-center items-center">
-                <h2 className=" text-5xl max-[500px]:max-lg:text-4xl border-b-2 py-2 border-white">Let's Connect With Us</h2>
+                <h2 className=" text-5xl max-[500px]:max-lg:text-3xl border-b-2 py-2 border-white">Let's Connect With Us</h2>
             </div>
             <ToastContainer />
             <form onSubmit={handleSubmit} className="flex flex-col max-w-[1000px] mx-auto mt-10">
@@ -55,7 +55,7 @@ function InputData() {
                         value={formData.name}
                         onChange={handleChange}
                         required
-                        className="border p-2 rounded bg-zinc-900 border-none outline-none w-full mr-2 max-sm:mr-0"
+                        className="border p-3 rounded bg-zinc-900 border-none outline-none w-full mr-2 max-sm:mr-0"
                     />
                     <input
                         type="email"
@@ -64,7 +64,7 @@ function InputData() {
                         value={formData.email}
                         onChange={handleChange}
                         required
-                        className="border p-2 rounded bg-zinc-900 border-none outline-none w-full max-sm:mt-4"
+                        className="border p-3 rounded bg-zinc-900 border-none outline-none w-full max-sm:mt-4"
                     />
                 </div>
                 <textarea
@@ -75,9 +75,9 @@ function InputData() {
                     rows="5"
                     cols="20"
                     required
-                    className="border p-2 rounded bg-zinc-900 border-none outline-none w-full mt-6 "
+                    className="border p-2 rounded bg-zinc-900 border-none outline-none w-full mt-4 "
                 ></textarea>
-                <button type="submit" className=" flex justify-center w-fit m-auto px-6 items-center bg-zinc-700 text-white p-2 rounded mt-4 hover:bg-orange-500 ">
+                <button type="submit" className=" flex justify-center w-fit m-auto px-6 items-center bg-zinc-700 text-white py-3 rounded mt-4 hover:bg-orange-500 ">
                     Send Message
                 </button>
             </form>

@@ -9,17 +9,17 @@ function Home() {
                     <img className=" h-[100vh]" src="codingLines.webp" alt="" />
                 </div>
                 <div className=" text-white flex flex-col mt-20 max-[1000px]:mt-6 items-center">
-                    <h1 className=" text-white mb-10 text-2xl">Hii, Welcome's You</h1>
+                    <h1 className=" text-white mb-10 text-2xl font-thin">WELCOME'S YOU</h1>
                     <img
                         className=" h-52 w-52 rounded-[50%] max-[1000px]:h-28 max-[1000px]:w-28 border-4 border-orange-600 p-2"
                         src="PIC.jpg"
                         alt="dev-img"
                     />
-                    <h1 className=" text-3xl mt-2 max-[1000px]:text-xl">
+                    <h1 className=" text-3xl mt-2 max-sm:text-xl text-center">
                         I'm
                         <span className=" text-orange-600"> Full Stack Developer </span>
                     </h1>
-                    <h2 className=" text-6xl mt-2 max-[1000px]:text-2xl">BISHWAJEET KUMAR</h2>
+                    <h2 className=" text-6xl mt-2 max-sm:text-xl text-center">BISHWAJEET KUMAR</h2>
                     <p className=" mx-40 mt-4 text-center max-[1000px]:mx-2 text-zinc-500">
                         I'm a MERN stack developer skilled in MongoDB, Express, React, and
                         Node.js. I build scalable, user-friendly web apps and am always
@@ -34,7 +34,7 @@ function Home() {
                     />
                 </div>
 
-                <div className=" absolute max-w-[50%] bottom-10 text-white   translate-x-2/3 max-sm:translate-x-2/4 ">
+                <div className=" absolute max-w-[50%] bottom-10 max-sm:bottom-20 text-white   translate-x-2/3 max-sm:translate-x-2/4 ">
                     <div className="flex  items-center justify-center max-[1000px]:flex-col">
                         <div className=" flex max-sm:mb-2">
                             <div className="  bg-slate-900 py-2 px-4 rounded-s-xl flex justify-center items-center">
