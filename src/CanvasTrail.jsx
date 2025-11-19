@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from "react";
+import { useRef, useEffect } from "react";
 
 const CanvasTrail = () => {
     const canvasRef = useRef(null);
@@ -119,12 +119,8 @@ const CanvasTrail = () => {
             ref={canvasRef}
             style={{
                 position: "fixed",
-                top: 0,
-                left: 0,
-                width: "100vw",
-                height: "100vh",
-                display: "block",
                 zIndex: 9,
+                pointerEvents: "none",
             }}
         />
     );

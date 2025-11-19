@@ -3,7 +3,7 @@ import { ProjectItems } from "../utils/ProjectData";
 function ProjectCard() {
   return (
     <>
-      <div className=" bg-zinc-950 text-white pb-8 pt-8">
+      <div className=" bg-zinc-950 text-white pb-8 pt-8 z-[99]">
         <div className=" flex justify-center items-center">
           <h2 className=" text-5xl max-[500px]:max-lg:text-4xl  border-b-2 py-2 border-white">Projects</h2>
         </div>
