@@ -22,7 +22,7 @@ export const ProjectItems = [
                 "react.png",
                 "tailwind.png",
             ],
-        link: "https://plan.runship.in/",
+        link: "https://food-application-vhna.vercel.app/",
 
     },
 
